@@ -1,0 +1,6 @@
+# crontab -l
+# http://d.hatena.ne.jp/anatoo/20120424/1335198888
+# * * * * * /bin/echo 'display notification "姿勢正しく" with title "cron住職"' | /usr/bin/osascript
+# * * * * * /usr/bin/notify-send "cron住職" "姿勢正しく"
+# http://stackoverflow.com/questions/610839/how-can-i-programmatically-create-a-new-cron-job
+(crontab -l ; echo '* * * * * /usr/bin/notify-send "cron住職" "姿勢正しく"') | sort - | uniq - | crontab -
