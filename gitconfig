@@ -1,0 +1,9 @@
+[ghq]
+   root = ~/data/src
+[user]
+	email = o.gata.ken@gmail.com
+	name = Sanemat
+[core]
+	editor = vim
+[color]
+	ui = auto
