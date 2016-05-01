@@ -15,13 +15,8 @@ eval "$(anyenv init -)"
 export GOPATH="$HOME/data"
 export PATH="$PATH:$HOME/bin:$GOPATH/bin"
 
-# github
-alias gl='cd $(ghq root)/$(ghq list | peco)'
-alias gr='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
-
 # gem-src
 export GEMSRC_USE_GHQ=1
-
 
 cdls ()
 {
@@ -118,3 +113,13 @@ function __show_status() {
     ${SETCOLOR_NORMAL}
 }
 PROMPT_COMMAND_STATUS="__show_status"
+
+# github
+alias gl='cd $(ghq root)/$(ghq list | peco)'
+alias gr='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
+
+# bundler
+alias be='bundle exec'
+
+# rackup
+alias rup="rackup -b \"run Rack::Directory.new('.')\" -p 9494"
