@@ -18,6 +18,9 @@ export PATH="$PATH:$HOME/bin:$GOPATH/bin"
 # gem-src
 export GEMSRC_USE_GHQ=1
 
+# android
+export PATH="$PATH:$HOME/data/android-sdk-linux/tools:$HOME/data/android-sdk-linux/platform-tools"
+
 cdls ()
 {
     \cd "$@" && ls && pwd
