@@ -16,7 +16,7 @@ export GOPATH="$HOME/data"
 export PATH="$PATH:$HOME/bin:$GOPATH/bin"
 
 # haskell
-export STACK_ROOT="$HOME/data/.stack"
+export STACK_ROOT="$HOME/data/stack"
 eval "$(stack --bash-completion-script stack)"
 
 # gem-src
