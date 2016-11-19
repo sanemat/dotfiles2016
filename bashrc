@@ -11,12 +11,12 @@ export PATH="$HOME/data/anyenv/bin:$PATH"
 export ANYENV_ROOT="$HOME/data/anyenv"
 eval "$(anyenv init -)"
 
-# direnv
-eval "$(direnv hook bash)"
-
 # golang
 export GOPATH="$HOME/data"
 export PATH="$PATH:$HOME/bin:$GOPATH/bin"
+
+# direnv
+eval "$(direnv hook bash)"
 
 # haskell
 export STACK_ROOT="$HOME/data/stack"
