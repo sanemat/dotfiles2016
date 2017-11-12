@@ -15,6 +15,9 @@ eval "$(anyenv init -)"
 export GOPATH="$HOME/data"
 export PATH="$PATH:$HOME/bin:$GOPATH/bin"
 
+# rust
+export PATH="$PATH:$HOME/.cargo/bin"
+
 # direnv
 eval "$(direnv hook bash)"
 
