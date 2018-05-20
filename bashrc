@@ -12,7 +12,7 @@ export ANYENV_ROOT="$HOME/data/anyenv"
 eval "$(anyenv init -)"
 
 # golang
-export GOPATH="$HOME/data"
+export GOPATH="$HOME/go"
 export PATH="$PATH:$HOME/bin:$GOPATH/bin"
 
 # rust
