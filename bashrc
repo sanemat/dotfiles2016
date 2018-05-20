@@ -128,8 +128,9 @@ function __show_status() {
 PROMPT_COMMAND_STATUS="__show_status"
 
 # github
-alias gl='cd $(ghq root)/$(ghq list | peco)'
-alias gr='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
+_GHQ_BIN="$(ghg bin)/ghq"
+alias gl='cd $(${_GHQ_BIN} root)/$(${_GHQ_BIN} list | peco)'
+alias gr='hub browse $(${_GHQ_BIN} list | peco | cut -d "/" -f 2,3)'
 
 # bundler
 alias be='bundle exec'
