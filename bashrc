@@ -1,7 +1,7 @@
-# LOCAL_BASHRC="$HOME/data/src/github.com/sanemat/dotfiles2016/bashrc"
-# if [ -f "$LOCAL_BASHRC" ]; then
-#   echo "load $LOCAL_BASHRC"
-#    . $LOCAL_BASHRC
+# _LOCAL_BASHRC="$HOME/go/src/github.com/sanemat/dotfiles2016/bashrc"
+# if [ -f "$_LOCAL_BASHRC" ]; then
+#   echo "load $_LOCAL_BASHRC"
+#    . $_LOCAL_BASHRC
 # fi
 
 PS1='${debian_chroot:+($debian_chroot)}\$ '
