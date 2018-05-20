@@ -7,8 +7,8 @@
 PS1='${debian_chroot:+($debian_chroot)}\$ '
 
 # anyenv
-export PATH="$HOME/data/anyenv/bin:$PATH"
-export ANYENV_ROOT="$HOME/data/anyenv"
+export PATH="$HOME/anyenv/bin:$PATH"
+export ANYENV_ROOT="$HOME/anyenv"
 eval "$(anyenv init -)"
 
 # golang
