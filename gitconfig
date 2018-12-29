@@ -2,10 +2,12 @@
    root = ~/go/src
 [user]
 	email = o.gata.ken@gmail.com
-	name = Sanemat
+	name = Matt (Sanemat)
 [core]
 	editor = vim
 [color]
 	ui = auto
 [alias]
   delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+[fetch]
+	prune = true
