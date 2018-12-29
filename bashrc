@@ -29,7 +29,7 @@ eval "$(stack --bash-completion-script stack)"
 export GEMSRC_USE_GHQ=1
 
 # android
-export PATH="$PATH:$HOME/data/android-sdk-linux/tools:$HOME/data/android-sdk-linux/platform-tools"
+export PATH="$PATH:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools"
 
 # ghg
 export PATH="$PATH:$(ghg bin)"
